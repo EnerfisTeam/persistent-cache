@@ -1,7 +1,7 @@
 
 var _elm_lang$persistent_cache$Native_LocalStorage = function() {
 
-if (!localStorage || !localStorage.getItem || !localStorage.setItem)
+if (typeof localStorage === 'undefined' || !localStorage || !localStorage.getItem || !localStorage.setItem)
 {
 	function disabled()
 	{
