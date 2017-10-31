@@ -1,5 +1,5 @@
 
-var _elm_lang$persistent_cache$Native_LocalStorage = function() {
+var _EnerfisTeam$persistent_cache$Native_LocalStorage = function() {
 
 if (typeof localStorage === 'undefined' || !localStorage || !localStorage.getItem || !localStorage.setItem)
 {
